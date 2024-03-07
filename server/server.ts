@@ -4,8 +4,8 @@ const app = express();
 
 const PORT = 3000;
 
-app.use(express.jason());
+app.use(express.json());
 
-app.listen(PORT, () =>{
-    console.log(`Sever is lsitening on port ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Sever is listening on port ${PORT}`);
 });
